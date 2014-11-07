@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: f7ce535553ab00d44a49612ce722cdec
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: 22 Books 0
+    100002: 22 Books 1
+    100004: 22 Books 2
+    100006: 22 Books 3
+    100008: 22 Books 4
+    100010: 22 Books 5
+    100012: 22 Books 6
+    100014: 22 Books 7
+    100016: 22 Books 8
+    100018: 22 Books 9
+    100020: 22 Books10
+    100022: 22 Books11
+    100024: 22 Books12
+    100026: //RootNode
+    400000: 22 Books 0
+    400002: 22 Books 1
+    400004: 22 Books 2
+    400006: 22 Books 3
+    400008: 22 Books 4
+    400010: 22 Books 5
+    400012: 22 Books 6
+    400014: 22 Books 7
+    400016: 22 Books 8
+    400018: 22 Books 9
+    400020: 22 Books10
+    400022: 22 Books11
+    400024: 22 Books12
+    400026: //RootNode
+    2300000: 22 Books 0
+    2300002: 22 Books 1
+    2300004: 22 Books 2
+    2300006: 22 Books 3
+    2300008: 22 Books 5
+    2300010: 22 Books 6
+    2300012: 22 Books 7
+    2300014: 22 Books 8
+    2300016: 22 Books 9
+    2300018: 22 Books10
+    2300020: 22 Books11
+    2300022: 22 Books12
+    3300000: 22 Books 0
+    3300002: 22 Books 1
+    3300004: 22 Books 2
+    3300006: 22 Books 3
+    3300008: 22 Books 5
+    3300010: 22 Books 6
+    3300012: 22 Books 7
+    3300014: 22 Books 8
+    3300016: 22 Books 9
+    3300018: 22 Books10
+    3300020: 22 Books11
+    3300022: 22 Books12
+    4300000: 22 Books 0
+    4300002: 22 Books 1
+    4300004: 22 Books 2
+    4300006: 22 Books 3
+    4300008: 22 Books 5
+    4300010: 22 Books 6
+    4300012: 22 Books 7
+    4300014: 22 Books 8
+    4300016: 22 Books 9
+    4300018: 22 Books10
+    4300020: 22 Books11
+    4300022: 22 Books12
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00400000019
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
