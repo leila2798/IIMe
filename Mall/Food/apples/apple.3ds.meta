@@ -1,0 +1,87 @@
+fileFormatVersion: 2
+guid: fae243b261c59e646b62e40f4ec0e317
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: apple2.001
+    100004: apple2.002
+    100006: apple2.003
+    100008: apple2_Tub
+    100010: jar_Plane
+    400000: //RootNode
+    400002: apple2.001
+    400004: apple2.002
+    400006: apple2.003
+    400008: apple2_Tub
+    400010: jar_Plane
+    2300000: apple2.001
+    2300002: apple2.002
+    2300004: apple2.003
+    2300006: apple2_Tub
+    2300008: jar_Plane
+    3300000: apple2.001
+    3300002: apple2.002
+    3300004: apple2.003
+    3300006: apple2_Tub
+    3300008: jar_Plane
+    4300000: jar_Plane
+    4300002: apple2_Tub
+    4300004: apple2.001
+    4300006: apple2.002
+    4300008: apple2.003
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 2
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
