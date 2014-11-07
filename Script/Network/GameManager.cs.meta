@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: ca15dd1f041f4104a92d1814145b933a
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - IOSSkin: {fileID: 11400000, guid: eb6179df671e05844be7e4cb95bec7d6, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
