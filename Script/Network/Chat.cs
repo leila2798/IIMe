@@ -1,25 +1,16 @@
-//-----------------------------------------------------------------------
-// <copyright file="Chat.cs" company="Scalify">
-//     Copyright (c) 2012 Scalify. All rights reserved.
-// </copyright>
-//-----------------------------------------------------------------------
-
 using Badumna.Chat;
 using Badumna.DataTypes;
 using UnityEngine;
 using System.Collections.Generic;
 
-// The Chat class demonstrates a simple way to use Badumna proximity
-// chat functionality.
-///
-// To enable proximity chat you need to do these two steps:
-// 1. Subscribe your local player to the proximity channel and pass a delegate for
+// The Chat class:
+// 1. Subscribes the local player to the proximity channel and pass a delegate for
 //    receiving proximity chat message, by calling:
 //    NetworkFacade.ChatSession.SubscribeToProximityChannel(
 //        IReplicableEntity,
 //        ChatMessageHandler);
-// 2. Then you can send proximity chat message by calling SendMessage(string) on
-//    that proximity channel object that you get from the previous step.
+// 2. Sends proximity chat message by calling SendMessage(string) on
+//    that proximity channel object from the previous step.
 public class Chat : MonoBehaviour
 {
     // The proximity chat channel.
