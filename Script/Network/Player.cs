@@ -1,9 +1,3 @@
-﻿//-----------------------------------------------------------------------
-// <copyright file="Player.cs" company="Scalify">
-//     Copyright (c) 2012 Scalify. All rights reserved.
-// </copyright>
-//-----------------------------------------------------------------------
-
 using System;
 using System.IO;
 using Badumna;
@@ -13,13 +7,11 @@ using UnityEngine;
 using Vector3 = Badumna.DataTypes.Vector3;
 
 // Class for representing a player's position and any additional properties.
-// As this class represent a replicable entity, it has to implement the
-// IReplicableEntity interface.
-///
-// Define all replicable properties and RPC methods in this class and remember
-// to tag them with [Replicable] attribute.
-///
-// Replicable properties you define here will typicallly wrap a property on the
+//
+// Defines all replicable properties and RPC methods in this class and 
+// tags them with [Replicable] attribute.
+//
+// Replicable properties defined here will typicallly wrap a property on the
 // Unity game object representing the player. For example, the existing Position
 // and Orientation properties wrap the Unity game object's transform's position
 // and rotation.
@@ -85,31 +77,7 @@ public class Player : MonoBehaviour, IReplicableEntity
 		// only apply if this is a local player.
 		if(this.GetComponent<ThirdPersonController>() != null)
 		{
-			/*
-			#if !UNITY_IPHONE && !UNITY_ANDROID
-			if(Input.GetButtonDown("Fire3"))
-			{
-				this.SendExplosionEffect(Input.mousePosition);
-			}
-			#else
-			var fingerCount = 0;
-			UnityEngine.Vector3 fingerPosition = UnityEngine.Vector3.zero;
-			
-			foreach (var ev in Input.touches)
-			{
-				if (ev.phase == TouchPhase.Ended && ev.tapCount == 2)
-				{
-					fingerCount++;
-					fingerPosition = new UnityEngine.Vector3(ev.position.x, ev.position.y, 0);*
-				}
-			}
-			
-			if(fingerCount == 1)
-			{
-				this.SendExplosionEffect(fingerPosition);
-			}
-			#endif
-			*/
+			// hnadle animation state
 		}
 	}
 	    // Gets or sets the name of the player animation currently playing.
