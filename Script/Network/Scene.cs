@@ -1,9 +1,3 @@
-//-----------------------------------------------------------------------
-// <copyright file="Scene.cs" company="Scalify">
-//     Copyright (c) 2013 Scalify. All rights reserved.
-// </copyright>
-//----------------------------------------------------------------------
-
 using System;
 using UnityEngine;
 using Badumna;
@@ -50,7 +44,7 @@ public class Scene : MonoBehaviour
 		Debug.Log("Creating local player...");
 		//////////////////////////////// PLAYER INITIALIZATION ////////////////////////////////////////
 		var gameManagerO = gameObject.GetComponent<GameManager>();
-		var player = GameObject.Instantiate(GameManager.Manager.PlayerPrefab, UnityEngine.Vector3.zero, transform.rotation) as GameObject;
+		var player = GameObject.Instantiate(GameManager.Manager.PlayerPrefab, new Vector3(3.2f, 8.5f, -0.7f), transform.rotation) as GameObject;
 		player = CharacterGenerator.Generate(player, gameManagerO.prefConfig);
 		////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -88,7 +82,7 @@ public class Scene : MonoBehaviour
 	{
 		//////////////////////////////// OTHER PREFABS INITIALIZATION ////////////////////////////////////////
 		var gameManagerO = gameObject.GetComponent<GameManager>();
-		var remotePlayer = GameObject.Instantiate(GameManager.Manager.PlayerPrefab, UnityEngine.Vector3.zero, transform.rotation) as GameObject;
+		var remotePlayer = GameObject.Instantiate(GameManager.Manager.PlayerPrefab, new Vector3(3.2f, 8.5f, -0.7f), transform.rotation) as GameObject;
 		remotePlayer = CharacterGenerator.Generate(remotePlayer, gameManagerO.prefConfig);
 		////////////////////////////////////////////////////////////////////////////////////////////////
 
