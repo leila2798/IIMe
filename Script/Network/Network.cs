@@ -1,9 +1,3 @@
-﻿//-----------------------------------------------------------------------
-// <copyright file="Network.cs" company="Scalify">
-//     Copyright (c) 2012 Scalify. All rights reserved.
-// </copyright>
-//-----------------------------------------------------------------------
-
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -15,28 +9,21 @@ using UnityEngine;
 using BadumnaId = Badumna.DataTypes.BadumnaId;
 using BadumnaVector3 = Badumna.DataTypes.Vector3;
 
-// This class provides a template network script for a Badumna enabled game.
-// It takes care of initializing the Badumna network, and has template code
+// This class takes care of initializing the Badumna network, and has template code
 // for creating a local player character and joining a Badumna network scene.
-///
-// The steps required to set up basic replication are listed below.
-// To use this script in your game, you must fill in the code for creating the
-// Unity game object for the player character and creating and removing Unity
-// game objects for replicas.
-///
-// Summary:
-// 1. Call NetworkFacade.BeginCreate and pass your cloud application identifier to
+//
+// 1. Calls NetworkFacade.BeginCreate and passes cloud application identifier to
 //    start asynchronously initializing Badumna.
-// 2. Call NetworkFacade.EndCreate when the IsCompleted property on the AsyncResult
-//    object returned by NetworkFacade.BeginCreate has been set to true. This will
-//    return the network facade for accessing Badumna functionailty.
-// 3. Login to Badumna by calling INetworkFacade.Login(characterName, xmlKeyPair).
-// 4. Register Entity Details and register any custom types for replicable properties
+// 2. Calls NetworkFacade.EndCreate when the IsCompleted property on the AsyncResult
+//    object returned by NetworkFacade.BeginCreate has been set to true. This 
+//    returns the network facade for accessing Badumna functionailty.
+// 3. Logins to Badumna by calling INetworkFacade.Login(characterName, xmlKeyPair).
+// 4. Registers Entity Details and other custom types for replicable properties
 //    before joining a Badumna scene.
-// 5. Join into a Badumna scene and register the local player with the scene.
-// 6. Regularly update Badumna by calling INetworkFacade.ProcessNetworkState()
+// 5. Joins into a Badumna scene and registers the local player with the scene.
+// 6. Regularly updates Badumna by calling INetworkFacade.ProcessNetworkState()
 //    in the game's update loop (e.g. in FixedUpdate()).
-// 7. Call INetworkFacade.Shutdown() to shutdown Badumna network.
+// 7. Calls INetworkFacade.Shutdown() to shutdown Badumna network.
 public class Network : MonoBehaviour
 {
 	// Scene instance.
