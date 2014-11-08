@@ -31,11 +31,11 @@ animation controller. Animation controller is a script (Script/Network/ThirdPers
 used for updating players animations depending on speed (now it supports walk, idle and run).
 
 NOTES:
-1	Currently animations used within the scene are not integrated.
+*	Currently animations used within the scene are not integrated.
 	Animations are switched in the Script/Network/CharacterController/ThirdPersonController 
 	and in the Script/Network/ThirdPersonSimpleAnimation scripts and defined on avatar prefabs
-2	Currently camera doesn't follow the avatar.
-3	Joystick is not integrated as well.
+*	Currently camera doesn't follow the avatar.
+*	Joystick is not integrated as well.
 
 USAGE:
 * 	To see the world using a prebuilt avatar run Mall.exe from the desktop 
