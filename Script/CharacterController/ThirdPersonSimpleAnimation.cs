@@ -11,7 +11,7 @@ public class ThirdPersonSimpleAnimation : MonoBehaviour
     public float walkSpeedScale = 1.0f;
     public Transform torso;
 
-    public string animationName;
+    public string animationName = "Idle";
 
     #region MonoBehaviour members
     
