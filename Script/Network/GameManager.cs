@@ -1,25 +1,15 @@
-//-----------------------------------------------------------------------
-// <copyright file="GameManager.cs" company="Scalify">
-//     Copyright (c) 2012 Scalify Pty Ltd. All rights reserved.
-// </copyright>
-//-----------------------------------------------------------------------
-
 using System.IO;
 using UnityEngine;
 
 // The game manager.
 //
-// This script provides a template game manager for use in a Badumna-enabled Unity3D game.
-// It is intended that developers can add this script to a game manager object, and then
-// customise it for their own game.
-///
 // It provides a place to add customizable fields that can be edited in the Unity editor,
 // and takes care of loading and destroying the Network script.
 // Since Badumna must maintain active connections to other peers, it will trigger
 // re-initialization of Badumna when the Unity application stops/starts running.
 public class GameManager : MonoBehaviour
 {
-    // The application Identifier should be set to your BadumnaCloud ID.
+    // PCSVN
     public string ApplicationIdentifier;
 
     // Player name
