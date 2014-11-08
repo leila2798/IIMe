@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: cf53dcebdcd586a4a838d499e44f6f9e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: chop stick
+    100002: chop_stick
+    100004: plate
+    100006: plate_smal
+    100008: plate_soy_
+    100010: sushi boar
+    100012: sushi_1_
+    100014: sushi_1_02
+    100016: sushi_1_03
+    100018: sushi_1_04
+    100020: sushi_1_05
+    100022: sushi_1_06
+    100024: sushi_2_
+    100026: sushi_2_01
+    100028: sushi_2_02
+    100030: sushi_2_03
+    100032: sushi_2_04
+    100034: sushi_2_05
+    100036: sushi_2_06
+    100038: sushi_2_07
+    100040: //RootNode
+    100042: wasabi-gin
+    100044: X032_019_0
+    100046: X032_019_s
+    400000: chop stick
+    400002: chop_stick
+    400004: plate
+    400006: plate_smal
+    400008: plate_soy_
+    400010: sushi boar
+    400012: sushi_1_
+    400014: sushi_1_02
+    400016: sushi_1_03
+    400018: sushi_1_04
+    400020: sushi_1_05
+    400022: sushi_1_06
+    400024: sushi_2_
+    400026: sushi_2_01
+    400028: sushi_2_02
+    400030: sushi_2_03
+    400032: sushi_2_04
+    400034: sushi_2_05
+    400036: sushi_2_06
+    400038: sushi_2_07
+    400040: //RootNode
+    400042: wasabi-gin
+    400044: X032_019_0
+    400046: X032_019_s
+    2300000: chop stick
+    2300002: chop_stick
+    2300004: plate
+    2300006: plate_smal
+    2300008: plate_soy_
+    2300010: sushi boar
+    2300012: sushi_1_
+    2300014: sushi_1_02
+    2300016: sushi_1_03
+    2300018: sushi_1_04
+    2300020: sushi_1_05
+    2300022: sushi_1_06
+    2300024: sushi_2_
+    2300026: sushi_2_01
+    2300028: sushi_2_02
+    2300030: sushi_2_03
+    2300032: sushi_2_04
+    2300034: sushi_2_05
+    2300036: sushi_2_06
+    2300038: sushi_2_07
+    2300040: wasabi-gin
+    3300000: chop stick
+    3300002: chop_stick
+    3300004: plate
+    3300006: plate_smal
+    3300008: plate_soy_
+    3300010: sushi boar
+    3300012: sushi_1_
+    3300014: sushi_1_02
+    3300016: sushi_1_03
+    3300018: sushi_1_04
+    3300020: sushi_1_05
+    3300022: sushi_1_06
+    3300024: sushi_2_
+    3300026: sushi_2_01
+    3300028: sushi_2_02
+    3300030: sushi_2_03
+    3300032: sushi_2_04
+    3300034: sushi_2_05
+    3300036: sushi_2_06
+    3300038: sushi_2_07
+    3300040: wasabi-gin
+    4300000: sushi_2_
+    4300002: sushi_2_01
+    4300004: sushi_2_02
+    4300006: sushi_2_03
+    4300008: sushi_2_04
+    4300010: sushi_2_05
+    4300012: sushi_2_06
+    4300014: sushi_2_07
+    4300016: plate
+    4300018: wasabi-gin
+    4300020: plate_smal
+    4300022: plate_soy_
+    4300024: chop stick
+    4300026: sushi_1_02
+    4300028: sushi_1_03
+    4300030: sushi_1_04
+    4300032: sushi_1_05
+    4300034: sushi_1_06
+    4300036: sushi boar
+    4300038: chop_stick
+    4300040: sushi_1_
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
