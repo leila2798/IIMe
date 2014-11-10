@@ -57,7 +57,8 @@ To implement it I've tried to create my own avatars, then used Mixamo pack, but 
 
 For the lack of time(*) I decided to integrate UMA plugin, and wrote my own customization script, which implements custom GUI and behavior (including custom load/save and changing overlays). Avatar animator was changed as well.
 
-For disintegration of the screens, onStart I load a prefab for not having prefs.
+There is still a minor bug in mesh renderers while changing shape after changing textures.
+Another thing is that because of disintegration, I always load a prefab for not having prefs.
 
 I put 2 apk for both Mixamo and UMA packs. Each has its pros and cons.
 -----------------------------------------------------------------------------------------------------
