@@ -66,3 +66,5 @@ Additional documentation is available in comments through the code.
 
 Initially we integrated Google analytics plugin, but later decided to remove it, as the application is disintegrated.
 
+As free version of Unity was used, no assets bundles, LOD, and occlusion were available to improve performance. 
+
