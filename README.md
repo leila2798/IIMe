@@ -61,7 +61,6 @@ There is still a minor bug in mesh renderers while changing shape after changing
 Another thing is that because of disintegration, I always load a prefab for not having prefs.
 
 I put 2 apk for both Mixamo and UMA packs. Each has its pros and cons.
------------------------------------------------------------------------------------------------------
 
 Additional documentation is available in comments through the code.
 
