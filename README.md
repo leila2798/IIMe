@@ -68,3 +68,4 @@ Initially we integrated Google analytics plugin, but later decided to remove it,
 
 As free version of Unity was used, no assets bundles, LOD, and occlusion were available to improve performance. 
 
+ -- UMA version is in GIT_Android directory, 2 APKs for Mixamo and UMA sign-up, main menu, and customizations are there too. Another APK file for explore world screen is in IIMe-APKs.
