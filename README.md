@@ -1,10 +1,15 @@
 All the screens are located in the scenes directory.
+
+Sign Up screen allows to choose an avatar from prebuilt models. Then the user is prompted to enter his email and choose username and password to sign up. After successful registration login screen is loaded. The behavior of this screen, as well as GUI, is managed using SelectCharStyled script 
+
 Login screen is created by the script LoginScene located in the Script directory.
 All account settings are stored on the Parse server. 
 When performing login, current user settings are being downloaded from the Parse server 
 and saved locally in user preferences.
-Next user enters the main menu, this scene is created by scripts/MainMenuGUI script.
-From here he can enter the main scene by clicking on ExploreWorld button.
+
+Next, user enters the main menu screen; this scene is created by scripts/MainMenuGUI script.
+Menu options are created as buttons and not menu items for better UI.
+From the main menu user can either logout, or explore other screens. (Some are not finished, and "under construction" scene loads instead.)
 
 ----------------------------------------------------------------------------------------------------
 											THE MAIN SCENE
@@ -43,9 +48,21 @@ USAGE:
 * 	To view the project install unity, create a new project and copy all the files except to
 	apk to the Assets folder.
 
+----------------------------------------------------------------------------------------------------
+								THE AVATAR CUSTOMIZATION SCENE
+----------------------------------------------------------------------------------------------------
+The main scene for customizing the avatar.
 
+To implement it I've tried to create my own avatars, then used Mixamo pack, but then had problems created my own overlays/slots libraries.
 
+For the lack of time(*) I decided to integrate UMA plugin, and wrote my own customization script, which implements custom GUI and behavior (including custom load/save and changing overlays). Avatar animator was changed as well.
 
+For disintegration of the screens, onStart I load a prefab for not having prefs.
 
+I put 2 apk for both Mixamo and UMA packs. Each has its pros and cons.
+-----------------------------------------------------------------------------------------------------
 
+Additional documentation is available in comments through the code.
+
+Initially we integrated Google analytics plugin, but later decided to remove it, as the application is disintegrated.
 
