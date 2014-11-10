@@ -39,7 +39,7 @@ NOTES:
 
 USAGE:
 * 	To see the world using a prebuilt avatar run Mall.exe from the desktop 
-* 	To see ExploreWorld screen from Android run IIMe-MainScene.apk
+* 	To see ExploreWorld screen from Android run IIMe-MainScene.apk (user "mos", password "mos")
 * 	To view the project install unity, create a new project and copy all the files except to
 	apk to the Assets folder.
 
